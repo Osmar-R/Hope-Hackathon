@@ -3,7 +3,15 @@ body{
     padding: 0;
 }
 
-.container{
+.heroimg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 300px;
+}
+
+/* .container{
     height: 10vh;
     width: 100%;
     opacity: 85%;
@@ -14,14 +22,13 @@ body{
     flex-direction: row;
     list-style: none;
     align-items: center;
-    justify-content: center;
-    width: 70%;
-    height: 10%;
+    justify-content: left;
+    width: 80%;
+    height: 8%;
     position: fixed;
     margin: 0;
     background-color: black;
-    /* top: 12%;  */
-    right: -1400px; 
+    right: -1550px; 
     transition: bottom .5s cubic-bezier(1, 0, 0, 1);
 } 
 
@@ -40,7 +47,6 @@ header{
     background-color: black;
     width: 40px;
     height: 40px;
-    /* top: 40px; */
     right: 50px;
     padding: 15px;
     cursor: pointer;
@@ -80,7 +86,7 @@ header{
 
 .change {
     right: 0;
-    box-shadow: 2px 2px 20px black;
+    /* box-shadow: 2px 2px 20px black; */
 }
 
 .change .line--1{
@@ -98,4 +104,4 @@ header{
 .change .hamburger--container{
     background-color: transparent;
     transition: ease-in-out .3s;
-}
+} */
