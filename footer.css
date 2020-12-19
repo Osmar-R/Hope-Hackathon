@@ -31,6 +31,11 @@ h1 {
   color: white;
 }
 
+h3{
+  text-align: center;
+  font-size:25px;
+  }
+
 .herotext {
   color: white;
 }
@@ -57,15 +62,17 @@ h1 {
 
 .wrapper{
     position: relative;
-    left: 450px;
-    background: black;
-    max-width: 550px;
+    /* left: 450px; */
+    /* background: black; */
+    max-width: 600px;
     width: 100%;
     padding: 15px;
     display: flex;
     justify-content: space-between;
     border-radius: 5px;
     margin: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -73,17 +80,20 @@ h1 {
     width: 85%;
     padding: 15px 20px;
     border: none;
-    border-radius: 35px;
+    border-radius: 4px;
     font-weight: bold;  
     color: black ;
+    border: 2px solid black;
+    font-size: 16px;
 }
 
 .searchbtn {
-    background: red ;
-    width: 10%;
-    border-radius: 5px;
+    /* background: red; */
+    width: 25%;
+    /* border-radius: 30px; */
     position: relative;
-    cursor: pointer;
+    /* cursor: pointer; */
+    margin-left: 20px;
 }
 
 .searchbtn .fas{
@@ -92,6 +102,12 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 18px;
+    background: red;
+    border: none;
+    width: 97%;
+    height: 95%;
+    cursor: pointer;
+    border-radius: 30px;
 }
 
 
@@ -116,14 +132,14 @@ h1 {
 }
 
 .detail-container p {
-  font-size: 25px;
+  font-size: 18px;
   line-height: 1.5;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Poppins', sans-serif;
   color: #000;
 }
 
 .box-img-1 {
-  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6w8_mgovilNrLGxEs9CBLxBIhsk0VPJk_vQ&usqp=CAU);
+  background: url(https://cdn.mos.cms.futurecdn.net/WxgePFJHTNAQRBuP3g5hoM.jpg);
   
 }
 
@@ -140,10 +156,10 @@ h1 {
   background-repeat: no-repeat;
 }
 
-
+/* 
 .box-img-1 h2{
   color:white;
-}
+} */
 
 /* Footer */
 
@@ -236,7 +252,7 @@ footer{
   margin: 15px 0;
 }
 .right form .text{
-  font-size: 1.0625rem;
+  font-size: 1.0625rem; 
   margin-bottom: 2px;
   /* color: #d9d9d9; */
   color:black;
@@ -246,7 +262,7 @@ footer{
 }
 .right form input, .right form .msgForm{
   width: 100%;
-  font-size: 1.0625rem;
+  font-size: 1.0625rem; 
   /* background: #151515; */
   background: white;
   padding-left: 10px;
@@ -261,9 +277,11 @@ footer{
 .right form input{
   height: 35px;
 }
+
 .right form .btn{
   margin-top: 10px;
 }
+
 .right form .btn button{
   height: 40px;
   width: 100%;
