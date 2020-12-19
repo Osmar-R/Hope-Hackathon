@@ -2,7 +2,8 @@
 *{
   margin: 0;
   padding: 0;
-  color: #d9d9d9;
+  /* color: #d9d9d9; */
+  color:black;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
@@ -56,7 +57,7 @@ h1 {
 
 .wrapper{
     position: relative;
-    left: 650px;
+    left: 450px;
     background: black;
     max-width: 550px;
     width: 100%;
@@ -67,11 +68,12 @@ h1 {
     margin: 15px;
 }
 
+
 .wrapper .input {
     width: 85%;
     padding: 15px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 35px;
     font-weight: bold;  
     color: black ;
 }
@@ -138,13 +140,21 @@ h1 {
   background-repeat: no-repeat;
 }
 
+
+.box-img-1 h2{
+  color:white;
+}
+
+/* Footer */
+
 /* Footer */
 
 footer{
-  position: fixed;
+  /* position: fixed; */
   bottom: 0px;
   width: 100%;
-  background: #111;
+  /* background: #111; */
+  background: white;
 }
 .main-content{
   display: flex;
@@ -168,7 +178,8 @@ footer{
   top: -10px;
   height: 2px;
   width: 100%;
-  background: #1a1a1a;
+  /* background: #1a1a1a; */
+  background: white;
 }
 .box .content:after{
   position: absolute;
@@ -190,10 +201,11 @@ footer{
 .left .content .social a span{
   height: 40px;
   width: 40px;
-  background: #1a1a1a;
+  /* background: #1a1a1a; */
+  background: white;
   line-height: 40px;
   text-align: center;
-  font-size: 18px;
+  font-size: 25px;
   border-radius: 5px;
   transition: 0.3s;
 }
@@ -202,7 +214,8 @@ footer{
 }
 .center .content .fas{
   font-size: 1.4375rem;
-  background: #1a1a1a;
+  /* background: #1a1a1a; */
+  background: white;
   height: 45px;
   width: 45px;
   line-height: 45px;
@@ -225,7 +238,8 @@ footer{
 .right form .text{
   font-size: 1.0625rem;
   margin-bottom: 2px;
-  color: #d9d9d9;
+  /* color: #d9d9d9; */
+  color:black;
 }
 .right form .msg{
   margin-top: 10px;
@@ -233,10 +247,11 @@ footer{
 .right form input, .right form .msgForm{
   width: 100%;
   font-size: 1.0625rem;
-  background: #151515;
-  /* background: white; */
+  /* background: #151515; */
+  background: white;
   padding-left: 10px;
-  border: 1px solid #d9d9d9;
+  /* border: 1px solid #d9d9d9; */
+  border: 1px solid black;
   border-radius: 2px;
 }
 .right form input:focus,
@@ -262,15 +277,19 @@ footer{
 }
 .right form .btn button:hover{
   background: #000;
+  /* background:white; */
+  color:white;
 }
 .bottom center{
   padding: 5px;
   font-size: 0.9375rem;
-  background: #151515;
+  /* background: #151515; */
+  background:white;
 }
 .bottom center span{
   /* color: #656565; */
-  color:#d9d9d9;
+  /* color:#d9d9d9; */
+  color:black;
 }
 .bottom center a{
   color: #f12020;
