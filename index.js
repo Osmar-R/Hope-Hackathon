@@ -1,17 +1,39 @@
-const express = require('express');
-const app = express();
-// const fetch = require('node-fetch');
+const express = require('express')
+const request = require("request");
+const app = express()
+const bodyParser = require('body-parser')
 
-app.use(express.static(__dirname + '/public'))
-app.use(express.json());
-    
-let form = document.querySelector('.state-input')
- 
-let state = getFormData(form)
- 
-console.log(JSON.stringify(state))
+app.set('view engine', 'ejs')
+app.use(bodyParser.urlencoded({extended : true}));
+app.use(express.static('public'));
 
 
+app.get('/', function(req,res){
+    res.render('index');
+})
+
+app.post('/', (req,res)=>{
+    let state = req.body.state;
+    state = state.toLowerCase()
+    const statsUrl = `https://api.covidtracking.com/v1/states/${state}/current.json`;
+     console.log(statsUrl)
+
+    // request(statsUrl, function(err, response, body){
+    //     if(err){
+    //         res.render('index', {weather : null, error : 'This aint it'})
+    //     }
+    //     else{
+    //         let weather = JSON.parse(body)
+    //         if(weather.main == undefined){
+    //             res.render('index', {weather : null, error : 'Memphis isnt a state'})
+    //         } else{
+    //             let weatherText = `Its ${weather.main.temp} degress in ${weather.name}`
+    //             res.render('index', {weather: weatherText, error:null})
+    //         }
+    //     } 
+    // })
+        
+    })
 
 
 // app.post('/', (req, res) => {

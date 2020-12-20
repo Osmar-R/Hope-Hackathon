@@ -21,9 +21,9 @@
 
     <!-- Middle Section -->
     <h3> Search Your Location: </h3>
-    <form class = "state-input" action="/index">
+    <form action="/" method="post">
     <div class="wrapper">
-      <input type="text" name ="name" class="input"  placeholder="Enter State Abbreviation Here" required>
+      <input type="text" name ="state" class="input" minlength="2" maxlength="2"  placeholder="Enter State Abbreviation Here" required>
       <div class="searchbtn"><button type="submit" <i class="fas fa-search"></i></button></div>
     </div>
   </form>
