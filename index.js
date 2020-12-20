@@ -1,7 +1,20 @@
-const express = require('express')
-const request = require("request");
-const app = express()
+const express=require('express')
+const path=require('path')
+const app=express()
+const staticPath=path.join(__dirname,'public')
 const bodyParser = require('body-parser')
+
+app.use(express.static(staticPath)) //set 'public' as static folder
+
+
+
+app.get('/',(req,res)=>{ //url root for sending home page
+    res.sendFile(staticPath+'/html/index.html')
+})
+
+
+/////////////////////
+
 
 app.set('view engine', 'ejs')
 app.use(bodyParser.urlencoded({extended : true}));
@@ -58,5 +71,9 @@ app.post('/', (req,res)=>{
 //         })
 //    })
 
-const port = process.env.PORT || 3000;
-app.listen(port, console.log(`listening at port ${port}`));
+////////////////////////////////////
+
+const PORT=process.env.PORT || 5000
+app.listen(PORT,(()=>{
+    console.log('Server running at port',PORT)
+}))
