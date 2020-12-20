@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Responsive Footer</title>
-    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="styles/footer.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
@@ -21,9 +21,9 @@
 
     <!-- Middle Section -->
     <h3> Search Your Location: </h3>
-    <form action="text">
+    <form class = "state-input" action="/index">
     <div class="wrapper">
-      <input type="text" class="input"  placeholder="Enter State Here" required>
+      <input type="text" name ="name" class="input"  placeholder="Enter State Abbreviation Here" required>
       <div class="searchbtn"><button type="submit" <i class="fas fa-search"></i></button></div>
     </div>
   </form>
@@ -101,6 +101,6 @@
         </center>
 </div>
 
-<script src="app.js"></script>
+<script src="../index.js"></script>
 </body>
 </html>
