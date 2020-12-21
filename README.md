@@ -52,4 +52,4 @@ Jaquelin Lara
 Osmar Rodriguez
 
 ## License
-The entire codebase is under [MIT license] (LICENSE.txt)
+The entire codebase is under [MIT license] (LICENSE)
