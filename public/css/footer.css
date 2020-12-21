@@ -136,19 +136,38 @@ h3 {
 }
 
 .box-img-1 {
-  background: url(https://cdn.mos.cms.futurecdn.net/WxgePFJHTNAQRBuP3g5hoM.jpg);
+  background: url(https://www.innovit.com/eu/wp-content/uploads/sites/3/2020/09/making-decisions-in-a-covid-19-world.jpg)
+    no-repeat center center;
 }
 
 .box-img-1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 700px;
+  width: 800px;
   font-family: "Courier New", Courier, monospace;
   font-size: 20px;
   color: #f4af1b;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.box-img-2 {
+  background: url(https://cdn.mos.cms.futurecdn.net/WxgePFJHTNAQRBuP3g5hoM.jpg);
+}
+.box-img-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box-img-1 h2 {
+  color: white;
 }
 
 /* 

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Covid Testeting 101</title>
-    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
@@ -33,14 +33,41 @@
     <div class="searchbtn"><i class="fas fa-search"></i></div>
   </div> -->
     <div class="home-details">
-        <div class="box-img-1">
-            <h2>Cases</h2>
-        </div>
+  <div class="box-img-1">
+      <h2>Testing Sites</h2>
+  </div>
 
-        <div class="detail-container">
-            <p> All of the Covid Info will go here </p>
-        </div>
+  <div class="detail-container">
+    <% if(location1 !== null){ %>
+      <p><%= location1 %></p><br>
+      <p><%= location2 %></p><br>
+      <p><%= location3 %></p><br>
+    <% } %>
+
+    <% if(error !== null){ %>
+      <p><%= error %></p>
+    <% } %>
+  </div>
+</div>
+<br>
+<div class="home-details">
+<div class="detail-container">
+  <div style="width: 50%; float:left">
+    <div id="total_world_wide" style="color: black;">
+
     </div>
+ </div>
+ <div style="width: 50%; float:right">
+  <div id="total_in_us" style="color: black;">
+
+  </div>
+ </div>
+  <!-- <p> All of the Covid Info will go here </p> -->
+</div>
+<div class="box-img-2">
+    <h2>Cases</h2>
+</div>
+</div>
   
     
 <!-- <div class="content1">
