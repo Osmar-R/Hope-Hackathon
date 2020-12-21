@@ -13,11 +13,12 @@ Have ejs packages installed
 [ejs]
 (https://www.npmjs.com/package/ejs)
 
-```bash
-pip install foobar
-```
 ### Installing
-on root folder run "npm install " 
+on root folder run
+
+```bash
+npm i 
+```
 
 start the server using "npm start"
 
@@ -44,4 +45,4 @@ Jaquelin Lara
 Osmar Rodriguez
 
 ## License
-[COVIDTESTING101] is licensed under the MIT License - see the LICENCE.md file for details.
+[MIT] ()
