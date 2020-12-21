@@ -14,13 +14,20 @@ Have ejs packages installed
 (https://www.npmjs.com/package/ejs)
 
 ### Installing
-on root folder run
+1. Clone or download the repo using this link https://github.com/Osmar-R/Hope-Hackathon.git
+
+
+2. on root folder run
 
 ```bash
 npm i 
 ```
 
-start the server using "npm start"
+3. start the server using
+
+```bash
+npm start
+```
 
 ### Running the test
 GET /get_totals to get total cases for worldwide
@@ -45,4 +52,4 @@ Jaquelin Lara
 Osmar Rodriguez
 
 ## License
-[MIT] ()
+[MIT] 
