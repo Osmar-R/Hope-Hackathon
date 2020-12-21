@@ -8,6 +8,7 @@ Clone or download this repository onto your local machine. Once this is done, yo
 Have node installed 
 [Node] 
 (https://nodejs.org/en/download/)
+
 Have ejs packages installed 
 [ejs]
 (https://www.npmjs.com/package/ejs)
@@ -17,11 +18,14 @@ pip install foobar
 ```
 ### Installing
 on root folder run "npm install " 
+
 start the server using "npm start"
 
 ### Running the test
 GET /get_totals to get total cases for worldwide
+
 GET /get_us_total to get total cases for USA
+
 server will run on port 5000
 
 ## Built With
@@ -32,8 +36,11 @@ Express & Express Router - Used to create endpoints
 
 ## Authors
 Ashley Woodton
+
 Judith Espinoza
+
 Jaquelin Lara
+
 Osmar Rodriguez
 
 ## License
